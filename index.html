@@ -40,6 +40,7 @@
             document.body.classList.remove("dark-mode");
             document.body.classList.add("light-mode");
             }
+
         });
 	});
     </script>
@@ -96,7 +97,9 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<button id="theme">Change theme</button>
+								<div class="nav-link smooth-menu" style="cursor: pointer"  id="theme">
+									<i class="fas fa-sun" id="theme-icon"></i>
+								</div>
 							</li>
 						</ul>
 					</div> <!-- navbar-collapse.// -->
@@ -183,7 +186,7 @@
 									</h2>
 									<div class="header-description">
 										<p>
-											Sapiente corrupti duis ipsum a faucibus vero varius nulla? A alias magna reiciendis nunc praesentium enim aliquam gollitia
+											Thank you for visitng my portfolio website. Feel free to use my contact information down below if you want to reach me.
 										</p>									
 									</div>
 								</div>
@@ -234,8 +237,8 @@
 										</p>
 									</div>
 									<div class="about-btns">
-										<a href="#" class="tm-btn-2">
-											Download CV 
+										<a href="assets/other/Rahal Danthanarayana.pdf" download="Rahal Danthanarayana.pdf"  class="tm-btn-2">
+											Download CV
 											<i class="fas fa-arrow-down"></i>
 										</a>
 									</div>
@@ -493,42 +496,51 @@
 							   All
 						</button>
 						<button class="btn fil-cat filter" data-rel="web" data-filter=".web">
-							Bus Transit Platform
+							FullStack Development
 						</button>
-						<button class="btn fil-cat filter" data-rel="flyers" data-filter=".flyers">
-							Mobile Development 
+						<button class="btn fil-cat filter" data-rel="mobile" data-filter=".mobile">
+							Mobile App Development
 						</button> 
-						<button class="btn fil-cat filter" data-rel="graphic" data-filter=".graphic">
+						<button class="btn fil-cat filter" data-rel="ml" data-filter=".ml">
 							Machine Learning
-						</button>
-						<button class="btn fil-cat filter" data-rel="wordpress" data-filter=".wordpress">
-							Wordpress
-						</button>
-						<button class="btn fil-cat filter" data-rel="illus" data-filter=".illus">
-							Illustration
 						</button>
 					</div>
 					<div id="portfolio" class="magnific-mix-gallery">
 						<div class="portfolio-grid grid-3">
-							<div class="project-box tile scale-anm web graphic" >
+							<div class="project-box tile scale-anm mobile" >
 								<div class="port-pic">
 									<div class="service-box" style="height: 40vh;">
 										Bus Transit App
 									</div>
 									<div class="port-overlay">
 										<div class="port-content">
-											<h5>More Info</h5>
+											<h5>View More Info</h5>
 											<a href="assets/img/projects/flutter_2.png" class="item popup-link">
 												<i class="fas fa-eye"></i>
 											</a>
 										</div>
 									</div>
 								</div>
+								<!-- <div class="project-box tile scale-anm web" >
+									<div class="port-pic">
+										<div class="service-box" style="height: 40vh;">
+											ZeroRisk
+										</div>
+										<div class="port-overlay">
+											<div class="port-content">
+												<h5>More Info</h5>
+												<a href="assets/img/projects/flutter_2.png" class="item popup-link">
+													<i class="fas fa-eye"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div> -->
 							</div>
-							<div class="project-box tile scale-anm flyers wordpress">
+							<div class="project-box tile scale-anm web ml">
 								<div class="port-pic">
 									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
+										IntelliCheff
 									</div>
 									<div class="port-overlay">
 										<div class="port-content">
@@ -539,21 +551,12 @@
 											</a>
 										</div>
 									</div>
-									<div class="port-overlay">
-										<div class="port-content">
-											<h5>02. Cteative Frame</h5>
-											<span>Web Design</span>
-											<a href="assets/img/projects/map_3.png" class="item popup-link">
-												<i class="fas fa-eye"></i>
-											</a>
-										</div>
-									</div>
 								</div>
 							</div>
-							<div class="project-box tile scale-anm web illus">
+							<div class="project-box tile scale-anm ml">
 							  <div class="port-pic">
 									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
+										Map Generalization
 									</div>
 									<div class="port-overlay">
 										<div class="port-content">
@@ -567,52 +570,21 @@
 									
 								</div>
 							</div>
-							<div class="project-box tile scale-anm flyers">
-								<div class="port-pic">
+							<div class="project-box tile scale-anm web">
+							  <div class="port-pic">
 									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
+										ZeroRisk
 									</div>
 									<div class="port-overlay">
 										<div class="port-content">
-											<h5>04. Cteative Frame</h5>
+											<h5>03. Cteative Frame</h5>
 											<span>Web Design</span>
-											<a href="assets/img/02_koyta_img/portfolio/4.jpg" class="item popup-link">
+											<a href="assets/img/projects/zerorisk_2.JPG" class="item popup-link">
 												<i class="fas fa-eye"></i>
 											</a>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="project-box tile scale-anm web" >
-								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
-									<div class="port-overlay">
-										<div class="port-content">
-											<h5>05. Cteative Frame</h5>
-											<span>Web Design</span>
-											<a href="assets/img/02_koyta_img/portfolio/5.jpg" class="item popup-link">
-												<i class="fas fa-eye"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project-box tile scale-anm bcards" >
-								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
-									<div class="port-overlay">
-										<div class="port-content">
-											<h5>06. Cteative Frame</h5>
-											<span>Web Design</span>
-											<a href="assets/img/02_koyta_img/portfolio/6.jpg" class="item popup-link">
-												<i class="fas fa-eye"></i>
-											</a>
-										</div>
-									</div>
+									
 								</div>
 							</div>
 						</div>

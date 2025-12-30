@@ -407,6 +407,14 @@
           }
         }
 		//Active Class Function
+
+		
+		$('#theme-icon').click(function(){
+			$('#theme-icon').toggleClass('fa-moon');
+			$('#theme-icon').toggleClass('fa-sun');
+		});
+
+		
 		
     }); // end document ready function
 })(jQuery); // End jQuery
