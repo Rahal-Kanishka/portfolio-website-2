@@ -4,15 +4,12 @@
 <head>	
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>  Rahal Danthanarayana </title>
+	<title>  Koyta - Personal Portfolio HTML Template </title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" media="(prefers-color-scheme: light)" />
 
 	<!-- Place favicon.ico in the root directory -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png"> -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
 	<!-- ========== Start Stylesheet ========== -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/fontawesome.min.css" rel="stylesheet" />
@@ -25,24 +22,6 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet" />
 	<!-- ========== End Stylesheet ========== -->
-
-	<!-- defer to make sure it runs after the html is loaded -->
-	<script defer> 
-	window.addEventListener("DOMContentLoaded", (event) => {
-		 document.getElementById("theme").addEventListener("click", () => {
-            const meta = document.querySelector('meta[name="color-scheme"]');
-            if (meta.content === "light") {
-            meta.content = "dark";
-            document.body.classList.remove("light-mode");
-            document.body.classList.add("dark-mode");
-            } else {
-            meta.content = "light";
-            document.body.classList.remove("dark-mode");
-            document.body.classList.add("light-mode");
-            }
-        });
-	});
-    </script>
   
 </head>
 
@@ -59,7 +38,10 @@
 		<div class="main-navigation">
 			<nav id="navbar_top" class="navbar navbar-expand-lg">
 				<div class="container">
-				
+					<a class="navbar-brand" href="../index.html">
+						<img src="assets/img/logo/logo.png" class="logo-display" alt="Itsol">
+						<img src="assets/img/logo/logo-dark.png" class="logo-scrolled" alt="Itsol">
+					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"><i class="ti-menu-alt"></i></span>
 					</button>
@@ -95,9 +77,6 @@
 									Contact 
 								</a>
 							</li>
-							<li class="nav-item">
-								<button id="theme">Change theme</button>
-							</li>
 						</ul>
 					</div> <!-- navbar-collapse.// -->
 					<div class="side-menu">
@@ -110,7 +89,7 @@
 							<div class="side-about">
 								<img src="assets/img/02_koyta_img/blog/blog1.jpg" alt="thumb">
 								<h5 class="about-sub-title mt-30">
-									about Me
+									about Us
 								</h5>
 								<p class=" mb-0">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsa architecto, debitis fugiat ut laborum accusamus, tempora autem excepturi aspernatur quod temporibus perferendis, consectetur a odit fugit facilis sapiente, eum!
@@ -123,7 +102,7 @@
 											<i class="fas fa-phone"></i>
 										</div>
 										<div class="side-addr-desc">
-											<span>+1-312-358-0641</span>
+											<span>+435-64773728</span>
 										</div>
 									</div>
 									<div class="side-addr-box">
@@ -131,7 +110,7 @@
 											<i class="fas fa-envelope"></i>
 										</div>
 										<div class="contact-addr-desc">
-											<span>rahalncm@gmail.com</span> 
+											<span>Apoyoxo@gmail.com</span> 
 										</div>
 									</div>
 									<div class="side-addr-box">
@@ -139,14 +118,15 @@
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
 										<div class="side-addr-desc">
-											<span> Catonsville, Maryland, 21227, USA</span> 
+											<span>FA - 154 Careon Street</span> 
 										</div>
 									</div>
 								</div>
 								<ul class="side-social">
-									<li><a href="https://github.com/Rahal-Kanishka"><i class="fab fa-github"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/rahaldanthanrayana/"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-behance"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -162,36 +142,34 @@
 		<!-- Start Slider
 		============================================= -->
 		<div id="home" class="hero-section">
-			<div class="hero-single-2 clippath-circle jarallax d-flex" data-jarallax='{"speed": 0.2}'>
-                 <canvas class="canvasParticles-two"></canvas>	               
-				<div class="container">
+			<div class="hero-single-2" style="background-image: url(assets/img/02_koyta_img/02.header.jpg)">
+                <div class="container">
                     <div class="row g-5">
 						<div class="col-xl-8">
 							<div class="hero-content-2 wow fadeInLeft" data-wow-duration="4s" data-wow-delay=".2s">
 								<div class="hero-desc">
 									<h5 class="hero-sub-title">
-										Rahal Danthanarayana
+										Harry Jason
 									</h5>
 									<h2 class="hero-title">
-										I’m a 
-										<span class="typed-strings">
-											  <span class="type_color">Software Engineer In Machine Learning</span>
-											  <span class="type_color">Full Stack Developer</span>
-											  <span class="type_color">Cloud Engineer</span>
-										</span>
-										<span class="typed"></span>										
+										I’m a Web Designer										
 									</h2>
 									<div class="header-description">
 										<p>
 											Sapiente corrupti duis ipsum a faucibus vero varius nulla? A alias magna reiciendis nunc praesentium enim aliquam gollitia
 										</p>									
 									</div>
+									<div class="hero-btn">
+										<a href="#" target="_blank" class="tm-btn-1 demo2">
+											Go To Portfolio <i class="fas fa-chevron-right"></i>
+										</a>
+									</div>
 								</div>
                             </div>
 						</div>
 						<div class="col-xl-4">
 							<div class="hero-2-img wow fadeInRight" data-wow-duration="4s" data-wow-delay=".2s">
-								<img src="assets/img/02_koyta_img/my_pic_background_edited_1.png" alt="thumb">
+								<img src="assets/img/02_koyta_img/header-right.png" alt="thumb">
 							</div>
 						</div>
                     </div>
@@ -209,7 +187,7 @@
 						<div class="col-xl-6">
 							<div class="about-left wow fadeInLeft" data-wow-duration="4s" data-wow-delay=".2s">
 								<div class="about-pic">
-									<img src="assets/img/02_koyta_img/my_pic_background_edited_1.png" alt="thumb">
+									<img src="assets/img/02_koyta_img/about-me.jpg" alt="thumb">
 								</div>
 							</div>
 						</div>
@@ -217,26 +195,30 @@
 							<div class="about-right wow fadeInRight" data-wow-duration="4s" data-wow-delay=".2s">
 								<div class="about-right-content">
 									<h5 class="about-sub-title">
-										about Me
+										about Us
 									</h5>
 									<h2 class="about-title">
-										Hi there, I’m Rahal Danthanarayana
+										Hi there, I’m Herry Jason
 									</h2>
 									<h5 class="about-title-3">
-										Software Engineer based in Maryland, USA
+										Photographer based in newyork, usa
 									</h5>
 									<div class="about-txt mb-30">
 										<p>
-											Senior Software Engineer with 7+ years of industry experience across healthcare, finance, and transportation, and a recent hands-on focus in machine learning and data science. 
+											Eeniam possimus magni quia posuere praesentium laboriosam laudantium laborum quam dignissim nihil fugiat cursus, elementum deleniti molestiae assumenda. Lste voluptatibus nascetur luctus vitae quam. 
 										</p>
 										<p class="mb-0">
-											Holds a Master’s degree in Computer Science with a specialization in Data Science. Experienced in building and deploying cloud-based ML pipelines and AI-enabled applications on AWS
+											Dignissimos nobis dignissim tristique, sequi occaecat cum auctor facilis interdum torquent pulvinar tenetur tempor ibendum quod.
 										</p>
 									</div>
 									<div class="about-btns">
 										<a href="#" class="tm-btn-2">
 											Download CV 
 											<i class="fas fa-arrow-down"></i>
+										</a>
+										<a href="#" class="tm-btn-3">
+											<i class="fas fa-print"></i> 
+											Print Cv
 										</a>
 									</div>
 								</div>
@@ -250,7 +232,7 @@
 		
 		<!-- Start Service
 		============================================= -->
-		<div id="service" class="service-area de-padding v-card-section wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+		<div id="service" class="service-area bg de-padding v-card-section wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-8 offset-xl-2">
@@ -274,7 +256,12 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Machine Learning</h4>
+									<h4>Graphics Design</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
 										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
@@ -289,7 +276,12 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Generative AI</h4>
+									<h4>Web Design</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
 										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
@@ -304,9 +296,14 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Pipeline Development</h4>
+									<h4>Trendy Work</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
-										I love to build data pipelines who works behind the scene to Extract, Trasnfer Load data for the models
+										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
 								</div>
 							</div>
@@ -319,7 +316,12 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Full Stack Development</h4>
+									<h4>Easy To Customize</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
 										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
@@ -334,10 +336,14 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Cloud Engineering</h4>
-									
+									<h4>Adobe Photoshop</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
-										I'm well equipped with knowldeg of deploying resources in the cloud with the speciality on AWS and Linux Operating Systems
+										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
 								</div>
 							</div>
@@ -350,7 +356,12 @@
 									</i>
 								</div>
 								<div class="service-content">
-									<h4>Team Leadership</h4>
+									<h4>Web Development</h4>
+									<ul class="service-tag">
+										<li><a href="#">Web</a></li>
+										<li><a href="#">Graphics</a></li>
+										<li><a href="#">SEO</a></li>
+									</ul>
 									<p>
 										I have been providing web design services with great success for 9 years. The client is very happy
 									</p>
@@ -425,44 +436,41 @@
 					<div class="counter-wpr grid-3">
 						<div class="fun-fact">
 							<div class="fun-fact-icon">
-								<!-- <img src="assets/img/02_koyta_img/icon/c1.png" alt="thumb"> -->
-								<i class="fa fa-calendar fa-4x"></i>
+								<img src="assets/img/02_koyta_img/icon/c1.png" alt="thumb">
 							</div>
 							<div class="fun-desc">
 								<span class="medium">
 									Year of
 									<br>
-									Industry <br>
 									Experience
 								</span>
-								<p class="timer" data-count="+"  data-to="7" data-speed="3000">7</p>
+								<p class="timer" data-count="+"  data-to="20" data-speed="3000">20</p>
 							</div>
 						</div>
 						<div class="fun-fact">
 							<div class="fun-fact-icon">
-								<!-- <img src="assets/img/02_koyta_img/icon/c2.png" alt="thumb"> -->
-								<i class="fab fa-github fa-4x"></i>
+								<img src="assets/img/02_koyta_img/icon/c2.png" alt="thumb">
 							</div>
 							<div class="fun-desc">
 								<span class="medium">
-									Github
+									Global Working
 									<br>
-									Contributions
+									Client
 								</span>
-								<p class="timer" data-count="+" data-to="745" data-speed="3000">745</p>
+								<p class="timer" data-count="+" data-to="20" data-speed="3000">20</p>
 							</div>
 						</div>
 						<div class="fun-fact">
 							<div class="fun-fact-icon">
-								<i class="fab fa-github fa-4x"></i>
+								<img src="assets/img/02_koyta_img/icon/c3.png" alt="thumb">
 							</div>
 							<div class="fun-desc">
 								<span class="medium">
-									Personal
+									Awards
 									<br>
-									Projects
+									Win
 								</span>
-								<p class="timer" data-count="+" data-to="31" data-speed="3000">31</p>
+								<p class="timer" data-count="+" data-to="20" data-speed="3000">20</p>
 							</div>
 						</div>
 					</div>
@@ -473,7 +481,7 @@
 		
 		<!-- Start Project Area
 		============================================= -->
-		<div id="work" class="project-area de-padding">
+		<div id="work" class="project-area bg de-padding">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-8 offset-xl-2">
@@ -493,13 +501,13 @@
 							   All
 						</button>
 						<button class="btn fil-cat filter" data-rel="web" data-filter=".web">
-							Bus Transit Platform
+							UI Design
 						</button>
 						<button class="btn fil-cat filter" data-rel="flyers" data-filter=".flyers">
-							Mobile Development 
+							Web Development
 						</button> 
 						<button class="btn fil-cat filter" data-rel="graphic" data-filter=".graphic">
-							Machine Learning
+							Graphic Design
 						</button>
 						<button class="btn fil-cat filter" data-rel="wordpress" data-filter=".wordpress">
 							Wordpress
@@ -512,13 +520,12 @@
 						<div class="portfolio-grid grid-3">
 							<div class="project-box tile scale-anm web graphic" >
 								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/1.jpg" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
-											<h5>More Info</h5>
-											<a href="assets/img/projects/flutter_2.png" class="item popup-link">
+											<h5>01. Cteative Frame</h5>
+											<span>Web Design</span>
+											<a href="assets/img/02_koyta_img/portfolio/2.jpg" class="item popup-link">
 												<i class="fas fa-eye"></i>
 											</a>
 										</div>
@@ -527,23 +534,12 @@
 							</div>
 							<div class="project-box tile scale-anm flyers wordpress">
 								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/2.jpg" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
 											<h5>02. Cteative Frame</h5>
 											<span>Web Design</span>
-											<a href="assets/img/projects/map_2.png" class="item popup-link">
-												<i class="fas fa-eye"></i>
-											</a>
-										</div>
-									</div>
-									<div class="port-overlay">
-										<div class="port-content">
-											<h5>02. Cteative Frame</h5>
-											<span>Web Design</span>
-											<a href="assets/img/projects/map_3.png" class="item popup-link">
+											<a href="assets/img/02_koyta_img/portfolio/2.jpg" class="item popup-link">
 												<i class="fas fa-eye"></i>
 											</a>
 										</div>
@@ -552,26 +548,21 @@
 							</div>
 							<div class="project-box tile scale-anm web illus">
 							  <div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/3.jpg" class="ht" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
 											<h5>03. Cteative Frame</h5>
 											<span>Web Design</span>
-											<a href="assets/img/projects/zerorisk_2.JPG" class="item popup-link">
+											<a href="assets/img/02_koyta_img/portfolio/3.jpg" class="item popup-link">
 												<i class="fas fa-eye"></i>
 											</a>
 										</div>
 									</div>
-									
 								</div>
 							</div>
 							<div class="project-box tile scale-anm flyers">
 								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/4.jpg" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
 											<h5>04. Cteative Frame</h5>
@@ -585,9 +576,7 @@
 							</div>
 							<div class="project-box tile scale-anm web" >
 								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/5.jpg" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
 											<h5>05. Cteative Frame</h5>
@@ -601,9 +590,7 @@
 							</div>
 							<div class="project-box tile scale-anm bcards" >
 								<div class="port-pic">
-									<div class="service-box" style="height: 40vh;">
-										Bus Transit App
-									</div>
+									<img src="assets/img/02_koyta_img/portfolio/6.jpg" alt="thumb">
 									<div class="port-overlay">
 										<div class="port-content">
 											<h5>06. Cteative Frame</h5>
@@ -618,6 +605,12 @@
 						</div>
 					</div>
 					<!--Portfolio-->
+				</div>
+				<div class="port-load text-center mt-70">
+					<a href="#" class="tm-btn-2">
+						Load More 
+						<i class="fas fa-chevron-right"></i>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -692,6 +685,159 @@
 			</div>
 		</div>
 		<!-- End Feedback -->
+		
+		<!-- Start Price
+		============================================= -->
+        <div id="pricing" class="item-area bg de-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8 offset-xl-2">
+						<div class="site-title mb-60 text-center">
+							<h5 class="about-sub-title">
+								Pricing Table
+							</h5>
+							<h2 class="mb-0">
+								Easy Pricing Process
+							</h2>
+						</div>
+					</div>
+				</div>
+                <div class="price-wpr">
+					<div class="row g-5">
+						<div class="col-xl-4 col-md-6">
+							<div class="price-content wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+								<div class="price-icon">
+									<i>
+										<img src="assets/img/02_koyta_img/icon/p1.png" alt="thumb">
+									</i>
+								</div>
+								<div class="price-box">
+									<div class="price-head">
+										<div class="price-rib">
+											<span class="price-ribbon-title">Silver</span>
+										</div>
+									</div>
+									<div class="price-info">
+										<ul>
+											<li>
+												<i class="fas fa-check"></i>
+												1 Home Page
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												2 Home Page Design
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												<del>Unlimited Inner Page</del>
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												<del>50 Elelments</del>
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												Support
+											</li>
+										</ul>
+									</div>
+									<div class="price-bottom">
+										<a href="#" class="tm-btn-4">$30 ORDER</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<div class="price-content wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+								<div class="price-icon">
+									<i>
+										<img src="assets/img/02_koyta_img/icon/3.png" alt="thumb">
+									</i>
+								</div>
+								<div class="price-box">
+									<div class="price-head">
+										<div class="price-rib">
+											<span class="price-ribbon-title">Enterprise</span>
+										</div>
+									</div>
+									<div class="price-info">
+										<ul>
+											<li>
+												<i class="fas fa-check"></i>
+												3 Home HTML
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												5 Home Page Design
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												Unlimited Inner Page
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												50 Elelments
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												Support
+											</li>
+										</ul>
+									</div>
+									<div class="price-bottom">
+										<a href="#" class="tm-btn-4 price-active">$50 ORDER</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<div class="price-content wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
+								<div class="price-icon">
+									<i>
+										<img src="assets/img/02_koyta_img/icon/p2.png" alt="thumb">
+									</i>
+								</div>
+								<div class="price-box">
+									<div class="price-head">
+										<div class="price-rib">
+											<span class="price-ribbon-title">Golden</span>
+										</div>
+									</div>
+									<div class="price-info">
+										<ul>
+											<li>
+												<i class="fas fa-check"></i>
+												1 Home Page
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												2 Home Page Design
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												Unlimited Inner Page
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												50 Elelments
+											</li>
+											<li>
+												<i class="fas fa-check"></i>
+												Support
+											</li>
+										</ul>
+									</div>
+									<div class="price-bottom">
+										<a href="#" class="tm-btn-4">$60 ORDER</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Price -->
 		
 		<!-- Start Blog
 		============================================= -->
@@ -798,7 +944,7 @@
 								Contact
 							</h5>
 							<h2 class="mb-0">
-								Contact Me
+								Contact Us
 							</h2>
 						</div>
 					</div>
@@ -814,7 +960,8 @@
 										</div>
 										<div class="contact-addr-desc">
 											<h4>Phone Number</h4>
-											<span>+1-312-358-0641</span> 
+											<span>+435-64773728,</span> <br>
+											<span>+062-35363782588</span>
 										</div>
 									</div>
 								</div>
@@ -825,7 +972,8 @@
 										</div>
 										<div class="contact-addr-desc">
 											<h4>Mail Address</h4>
-											<span>rahalncm@gmail.com</span> 
+											<span>Apoyoxo@gmail.com</span> 
+											<span>Vestorygasmo@gmail.com</span>
 										</div>
 									</div>
 								</div>
@@ -835,9 +983,9 @@
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
 										<div class="contact-addr-desc">
-											<h4>Address</h4>
-											<span>Catonsville, Baltimore County,</span> 
-											<span>Maryland, USA</span>
+											<h4>Office Address</h4>
+											<span>FA - 154 Careon Street,</span> 
+											<span>California, USA</span>
 										</div>
 									</div>
 								</div>
@@ -927,9 +1075,11 @@
 						</div>
 						<div class="col-xl-4">
 							<ul class="footer-social">
-								<li><a href="https://github.com/Rahal-Kanishka"><i class="fab fa-github"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-behance"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/rahaldanthanrayana/"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -952,7 +1102,6 @@
     <script src=" assets/js/jquery.easing.min.js"></script>
     <script src=" assets/js/bootstrap-menu.js"></script>
     <script src=" assets/js/jquery.magnific-popup.min.js"></script>
-    <script src=" assets/js/parallax.js"></script>	
     <script src=" assets/js/modernizr.custom.13711.js"></script>
     <script src=" assets/js/wow.min.js"></script>
     <script src=" assets/js/isotope.pkgd.min.js"></script>
@@ -963,7 +1112,6 @@
 	<script src=" assets/js/owl.carousel.min.js"></script>
 	<script src=" assets/js/progress-bar.min.js"></script>
 	<script src=" assets/js/typed.js"></script>
-	<script src=" assets/js/jquery.particles.min.js"></script>
 	<script src=" assets/js/YTPlayer.min.js"></script>
 	<script src=" assets/js/active-class.js"></script>
     <script src=" assets/js/main.js"></script>	
