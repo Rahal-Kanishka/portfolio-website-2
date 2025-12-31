@@ -1255,6 +1255,7 @@ button.navbar-toggler:focus {
   display: none; }
   .project-box .port-pic {
     position: relative;
+    cursor: pointer;
     z-index: 1; }
     .project-box .port-pic img {
       width: 100%;
@@ -1333,7 +1334,7 @@ button.navbar-toggler:focus {
       line-height: 1;
       margin-bottom: 1rem; }
     .feed-box .feed-bio .feed-name span {
-      display: block;
+      display: block; 
       font-size: 1.6rem;
       line-height: 1;
       font-weight: 600;
@@ -1379,7 +1380,7 @@ button.navbar-toggler:focus {
 
 .owl-carousel .owl-item img {
   display: block;
-  width: inherit;
+  width: 30%;
   margin: 0 auto; }
 
 .feed-qoute {
@@ -1825,6 +1826,22 @@ footer {
 	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 86%, 33% 99%, 0 88%, 0 0);
 	clip-path: polygon(50% 0%, 100% 0, 100% 86%, 33% 99%, 0 88%, 0 0);
 	position:relative;
+}
+
+.portfolio-img {
+  max-width: 100%;
+}
+
+.portfolio-project {
+  cursor: pointer;
+}
+.portfolio-project img {
+  height: 37%;
+  margin-bottom: 5px;
+}
+
+.portfolio-project i {
+  margin-bottom: 5px;
 }
 
 
