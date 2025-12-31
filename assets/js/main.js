@@ -246,8 +246,103 @@
 		/* ==================================================
 			# Magnific popup init
 		 ===============================================*/
-		$(".popup-link").magnificPopup({
-			type: 'image',
+		$(".bus-images").magnificPopup({
+			
+
+			items: [ 
+				{
+					src: 'assets/img/projects/flutter_1.png',
+					title: 'Driver Profile',
+				},
+				{
+					src: 'assets/img/projects/flutter_2.png',
+					title: 'Bus Route View'
+				},
+				{
+					src: 'assets/img/projects/flutter_3.png',
+					title: 'Create User'
+				},
+				{
+					src: 'assets/img/projects/flutter_4.png',
+					title: 'User Profile View'
+				}
+			],
+				 gallery: {
+				enabled: true
+				},
+				type: 'image'
+							
+			// other options
+		});
+
+		$(".intellicheff_images").magnificPopup({
+			items: [ 
+				{
+					src: 'assets/img/projects/intellicheff-ui.png',
+					title: 'User Interface',
+				}
+			],
+			gallery: {
+			enabled: true
+			},
+			type: 'image'			
+			// other options
+		});
+
+		$(".intellicheff-images").magnificPopup({
+			items: [ 
+				{
+					src: 'assets/img/projects/intellicheff-ui.png',
+					title: 'User Interface',
+				}
+			],
+			gallery: {
+			enabled: true
+			},
+			type: 'image'
+							
+			// other options
+		});
+
+		$(".map-images").magnificPopup({
+			items: [ 
+				{
+					src: 'assets/img/projects/map_1.png',
+					title: 'Data Classification',
+				},
+				{
+					src: 'assets/img/projects/map_2.png',
+					title: 'Bar Chart',
+				},
+				{
+					src: 'assets/img/projects/map_3.png',
+					title: 'Scatter Plot',
+				}
+			],
+			gallery: {
+			enabled: true
+			},
+			type: 'image'
+							
+			// other options
+		});
+
+		$(".zerorisk-images").magnificPopup({
+			items: [ 
+				{
+					src: 'assets/img/projects/zerorisk_1.JPG',
+					title: 'Localization support'
+				},
+				{
+					src: 'assets/img/projects/zerorisk_3.JPG',
+					title: 'Forgot Password implementation'
+				}
+			],
+			gallery: {
+				enabled: true
+			},
+			type: 'image'
+							
 			// other options
 		});
 
